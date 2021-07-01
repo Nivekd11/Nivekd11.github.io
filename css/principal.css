@@ -1,0 +1,159 @@
+
+
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg, #DC2424 0%, #4A569D 100%);
+    
+    
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    bottom:80px;
+}
+
+
+.contenedor-imagen{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.contenedor-imagen img{
+    margin-top: 200px;
+    margin-right: 1rem;
+    height: 805px;
+}
+
+.contenedor-textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-textos h1{
+    width: 878px;
+    height: 84px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+.contenedor-textos h2{
+    width: 819px;
+    height: 95px;
+    left: 960px;
+    top: 230px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 112px;
+
+    color: rgba(104, 225, 253, 0.78);
+}
+
+.contenedor-textos h3{
+    position: absolute;
+    width: 819px;
+    height: 95px;
+    left: 960px;
+    top: 380px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: rgba(41, 40, 40, 0.78);
+}
+
+.subtitulo-skills{
+    position: absolute;
+    width: 175px;
+    height: 104px;
+    left: 960px;
+    top: 450px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #FFFFFF;
+}
+
+.lista-skills{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 960px;
+    top: 600px;
+}
+
+.lista-skills img{
+    width: 105px;
+    height: 100px;
+}
+
+.proyectos-recientes{
+    position: absolute;
+    width: 457px;
+    height: 64px;
+    left: 960px;
+    top: 690px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    
+    color: #FFFFFF;  
+}
+
+.lista-recientes{
+    position: absolute;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    left:960px;
+    top: 820px;
+    
+}
+
+.lista-recientes img{
+    width: 418px;
+    height: 203px;
+    border-radius: 20px;
+    margin-right: 2rem;
+}
+
+.animacion{
+    animation: ilustrationAnimate ease-in 1s infinite alternate;
+}
+
+@keyframes ilustrationAnimate{
+    0%{
+       transform: scale(1); 
+    }100%{
+        transform: scale(1.02);
+    }
+}

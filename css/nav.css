@@ -1,0 +1,27 @@
+.navegacion{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    align-items: center;
+    z-index: 3;
+    
+}
+
+.navegacion a{
+    color: aliceblue;
+    text-decoration:none;
+    background-color: rgba(212, 212, 212, 0.2);
+    border-radius: 1rem;
+}
+
+.navegacion a:hover{
+    color: aliceblue;
+    text-decoration:none;
+    background-color: rgba(212, 212, 212, 0.2);
+    border-radius: 1rem;
+    font-size: 54px;
+    cursor:pointer;
+}
