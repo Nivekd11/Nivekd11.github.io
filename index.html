@@ -10,35 +10,48 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/principal.css">
     <link rel="stylesheet" href="css/nav.css">
+    <script src="js/menu.js"></script>
     <title>Portfolio Kevin Sandoval</title>
 </head>
 <body>
     <header>
         <nav class="navegacion animate__animated animate__fadeInDown">
-            <a class="texto" href="index.html">Inicio</a>
-            <a class="texto" href="#">Skills</a>
-            <a class="texto" href="#">Proyectos</a>
-            <a class="texto" href="#">Contacto</a>
-            <div class="iconos-redes">
-                <a target="_blank" href="https://github.com/Nivekd11"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <a class="texto logo" href="index.html">KS</a>
+            <!-- <a class="nav-barra">2S</a> -->
+            <button class="nav-barra" id="nav-barra">
+                <svg xmlns="http://www.w3.org/2000/svg" class=" icon icon-tabler icon-tabler-menu-2" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-                </svg></a>
-                <a target="_blank" href="https://www.linkedin.com/in/kevin-edwin-sandoval-hern%C3%A1ndez/"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <rect x="4" y="4" width="16" height="16" rx="2" />
-                    <line x1="8" y1="11" x2="8" y2="16" />
-                    <line x1="8" y1="8" x2="8" y2="8.01" />
-                    <line x1="12" y1="16" x2="12" y2="11" />
-                    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
-                </svg></a>
-                <a target="_blank" href="https://www.instagram.com/nivekd11/"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <rect x="4" y="4" width="16" height="16" rx="4" />
-                    <circle cx="12" cy="12" r="3" />
-                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-                </svg></a>
+                    <line x1="4" y1="6" x2="20" y2="6" />
+                    <line x1="4" y1="12" x2="20" y2="12" />
+                    <line x1="4" y1="18" x2="20" y2="18" />
+                </svg>
+            </button>
+            <div class="nav-menu" id="nav-menu">
+                <a class="texto" href="#">Skills</a>
+                <a class="texto" href="#">Proyectos</a>
+                <a class="texto" href="#">Contacto</a>
+                <div class="iconos-redes">
+                    <a target="_blank" href="https://github.com/Nivekd11"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                    </svg></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/kevin-edwin-sandoval-hern%C3%A1ndez/"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="4" width="16" height="16" rx="2" />
+                        <line x1="8" y1="11" x2="8" y2="16" />
+                        <line x1="8" y1="8" x2="8" y2="8.01" />
+                        <line x1="12" y1="16" x2="12" y2="11" />
+                        <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                    </svg></a>
+                    <a target="_blank" href="https://www.instagram.com/nivekd11/"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="4" width="16" height="16" rx="4" />
+                        <circle cx="12" cy="12" r="3" />
+                        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                    </svg></a>
+                </div>
             </div>
+            
         </nav>
     </header>
     
@@ -53,14 +66,14 @@
 
             <p class="subtitulo-skills animate__animated animate__zoomInDown">Skills</p>
             <div class="lista-skills animate__animated animate__fadeInRight">
-                <img src="img/html.png" style="width:90px;">
-                <img src="img/css.svg" style="height: 115px;">
-                <img src="img/javascript.png" style=" height: 106px; width:180px; margin-left: -40px;">
-                <img src="img/java.png" style=" margin-left: -40px;">
-                <img src="img/PHP.svg" style="height: 120px; margin-right: 15px;">
-                <img src="img/python.png" style="height: 90px; width: 100px; margin-right: 10px;">
+                <img src="img/html.png">
+                <img src="img/css.svg">
+                <img src="img/javascript.png">
+                <img src="img/java.png">
+                <img src="img/PHP.svg">
+                <img src="img/python.png">
                 <img src="img/c2.png">
-                <img src="img/sql.png" style="width:165px; margin-left: -35px;">
+                <img src="img/sql.png">
             </div>
             <p class="proyectos-recientes animate__animated animate__zoomInDown">Proyectos Recientes</p>
             <div class="lista-recientes animate__animated animate__fadeInRight">

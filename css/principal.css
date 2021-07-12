@@ -5,11 +5,14 @@
     box-sizing: border-box;
 }
 
+html{
+    overflow-x: hidden;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(90deg, #DC2424 0%, #4A569D 100%);
-    overflow-x: hidden;
+   
 }
 
 .container{
@@ -27,15 +30,12 @@ body{
     width: 50%;
     display: flex;
     flex-direction: column;
-    
-
+    margin-top: 5rem;
 
 }
 .contenedor-imagen img{
-    margin-top: 60px;
     margin-right: 1rem;
     width: 90%;
-    height: 98%;
     min-width: 300px;
 }
 
@@ -83,13 +83,13 @@ body{
 
 .lista-skills{
     display: flex;
+    justify-content: space-around;
     align-items: center;
     margin-top: 1rem;
 }
 
 .lista-skills img{
-    width: 105px;
-    height: 100px;
+    width: 10%;
     transition: all 0.2s ease-in-out;
 }
 
@@ -197,5 +197,7 @@ body{
         height: 18px;
         transition: all 0.2s ease-in-out;
     }
+
+    
 
 }
