@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
 </head>
 <body>
     <header>
-        <nav class="navegacion animate__animated animate__fadeInDown">
+        <nav class="navegacion animate__animated animate__fadeInDown" id="navegacion">
             <a class="texto logo" href="index.html">KS</a>
             <!-- <a class="nav-barra">2S</a> -->
             <button class="nav-barra" id="nav-barra">
@@ -57,7 +58,7 @@
     
     <main class="container">
         <div class="contenedor-imagen">
-            <img src="img/Web Developer_Monochromatic.svg" class="animate__animated animate__rubberBand animacion ">
+            <img src="img/Foto.jpg" class="animate__animated animate__rubberBand animacion ">
         </div>
         <div class="contenedor-textos">
             <h1 class="titulo animate__animated animate__zoomInUp">HOLA MI NOMBRE ES</h1>
@@ -66,19 +67,30 @@
 
             <p class="subtitulo-skills animate__animated animate__zoomInDown">Skills</p>
             <div class="lista-skills animate__animated animate__fadeInRight">
-                <img src="img/html.png">
-                <img src="img/css.svg">
-                <img src="img/javascript.png">
-                <img src="img/java.png">
-                <img src="img/PHP.svg">
-                <img src="img/python.png">
-                <img src="img/c2.png">
-                <img src="img/sql.png">
+                <figure>
+                    <img src="img/html.png">
+                </figure>
+                <figure>
+                    <img src="img/css3.png"></figure>
+                <figure><img src="img/javascript.png"></figure>
+                <figure><img src="img/sql.png"></figure>
+                <figure><img src="img/java.png"></figure>
+                <figure><img src="img/php.png"></figure>
+                <figure><img src="img/python.png"></figure>
+                <figure><img src="img/c2.png"></figure>
+                
             </div>
             <p class="proyectos-recientes animate__animated animate__zoomInDown">Proyectos Recientes</p>
             <div class="lista-recientes animate__animated animate__fadeInRight">
-                <a href="PInmueble.html"><img src="img/Trobify.PNG"></a>
-                <a href="PInmueble.html"><img src="img/Instrumentacion.PNG"></a>
+                <figure>
+                    <a href="PInmueble.html"><img src="img/Trobify.PNG"></a>
+                    <p>Plataforma Inmobiliaria</p>
+                </figure>
+                <figure>
+                    <a href="PInmueble.html"><img src="img/Instrumentacion.PNG"></a>
+                    <p>Sistema de acondicionamiento con sensores</p>
+                </figure>
+                
             </div>
 
         </div>
